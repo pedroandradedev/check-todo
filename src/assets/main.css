@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply select-none outline-none;
+}
+
+* input,
+* textarea {
+    @apply select-text selection:text-white selection:bg-green-700;
+}
+
+html,
+body,
+#app {
+    @apply w-full h-full overflow-hidden;
+}
+
+body {
+    @apply bg-neutral-900 bg-[url('blurry-gradient-haikei.png')] bg-cover bg-center;
+}
+
+::-webkit-scrollbar {
+    @apply w-1.5 h-1.5 mr-4;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-transparent rounded-full;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-green-400 rounded-full;
+}
