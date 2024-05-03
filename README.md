@@ -36,6 +36,6 @@ npm run build
 -   [TailwindCSS](https://tailwindcss.com)
 -   [json-server](https://www.npmjs.com/package/json-server)
 
-## 📝 License
+## 📝 Licença
 
 Este projeto está licenciado sob a licença MIT.
